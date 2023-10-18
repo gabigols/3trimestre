@@ -1,9 +1,36 @@
 body {
-    background: rgb{186,150,99};
+    background: rgb (186,150,99);
 }
 h1{
-    font-size: 60px;
-    color: rgb 45, 5,82 } ;
-    font-family: ' lucida sans ' , '  lucida sans regular '
-
+    text-align: center;
+    font-size: 40px;
+    color: rgb #a02822;
 }
+
+.cabecalho {
+background-color: aqua;
+display: flex;
+}
+.logocabecalho{ 
+    width: 100px;
+
+} 
+.listacaabecalho{
+    display: flex;
+    margin-left: 500px;
+
+} 
+.item_lita_cabecalho{
+    color: aqua;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 100px;
+    padding: 5px;
+     
+}
+
+    
+
+
+
+
